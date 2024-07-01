@@ -26,7 +26,25 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <style>
+        /* Inline CSS for demonstration purposes */
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 
 <body>
@@ -335,9 +353,9 @@
       <div class="container">
 
         <div class="section-title">
-			<h2>Resume</h2> <a href="assets/Nitin Prakash Resume.pdf" download="Nitin Prakash Resume.pdf">
-    <button type="button">Download Resume</button>
-</a>
+		<a href="assets/Nitin Prakash Resume.pdf" download="Nitin Prakash Resume.pdf" class="download-btn">
+        Download Resume
+    </a>
 			<ul class="list-group">
                 <li class="list-group-item">Over 6 years of experience in RPA, web, and desktop application development, demonstrating a strong command of solution architecture and automation initiatives.</li>
 				<li class="list-group-item">Manage app development efficiently with high-quality deliverables. Analyze and solve complex issues, and optimize system performance.</li>
